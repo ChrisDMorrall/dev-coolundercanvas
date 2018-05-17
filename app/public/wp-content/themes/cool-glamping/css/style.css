@@ -1,0 +1,18 @@
+/*
+Theme Name: Cool Glamping Theme
+Author: Chris Morrall
+Version: 1.0
+*/
+
+/* 3rd party packages */
+@import "normalize.css";
+@import "slick-carousel/slick/slick.css";
+
+/* SASS and Global'ish Stuff */
+@import "base/variables";
+@import "base/baseline";
+@import "base/utility-classes";
+
+/* BEM Blocks to import*/
+@import "modules/site-header";
+@import "modules/main-navigation";

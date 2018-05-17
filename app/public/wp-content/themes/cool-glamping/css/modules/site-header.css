@@ -1,0 +1,53 @@
+.site-header {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  background-color: $darkHeader;
+
+  &__logo-bar {
+    min-width: 625px;
+  }
+
+  &__logo {
+    margin: auto;
+    width: 150px;
+    margin-bottom: 15px;
+  }
+
+  &__menu {
+    visibility: hidden;
+    position: absolute;
+    background-color: color($mainBlue a(89%) b(+3%));
+    left: 0;
+    right: 0;
+    top: -20px;
+    padding-top: 58px;
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: opacity .3s ease-out, visibility .3s ease-out, transform .3s ease-out;
+    padding-bottom: 20px;
+
+    &--active {
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
+    }
+
+    @mixin atMedium {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      position: relative;
+      background-color: transparent;
+      /* float: right; */
+      margin: auto;
+      width: 50%;
+      padding-top: 0;
+      padding-bottom: 0;
+      top: 0;
+    }
+  }
+}
