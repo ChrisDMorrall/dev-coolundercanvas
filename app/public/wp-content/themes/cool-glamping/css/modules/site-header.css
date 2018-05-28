@@ -8,7 +8,11 @@
   background-color: $darkHeader;
 
   &__logo-bar {
-    min-width: 625px;
+    min-width: 300px;
+
+    @mixin atMedium {
+      min-width: 625px;
+    }
   }
 
   &__logo {
@@ -20,7 +24,7 @@
   &__menu {
     visibility: hidden;
     position: absolute;
-    background-color: color($mainBlue a(89%) b(+3%));
+    background-color: color($mainGreen a(89%) b(+3%));
     left: 0;
     right: 0;
     top: -20px;
@@ -50,4 +54,31 @@
       top: 0;
     }
   }
+
+  &__menu-trigger {
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    /* position: absolute; */
+    z-index: 10;
+    /* top: 7px; */
+    /* right: 46px; */
+
+    @mixin atSmall {
+      /* top: 5px; */
+      font-size: 1.4rem;
+    }
+
+    @mixin atMedium {
+      top: 5px;
+      display: none;
+    }
+  }
+
+
 }

@@ -17,7 +17,12 @@
 
   &__slide {
     background-size: cover;
+    width: 100%;
+    height: 300px;
     background-repeat: no-repeat;
+    @mixin atMedium {
+      height: 800px;
+    }
   }
 
   &__overlay {
@@ -27,6 +32,8 @@
     color: #FFF;
     @mixin atMedium {
       width: 50%;
+      margin-top: 148px;
+
     }
   }
 

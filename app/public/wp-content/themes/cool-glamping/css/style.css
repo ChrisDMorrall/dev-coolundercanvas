@@ -17,3 +17,5 @@ Version: 1.0
 @import "modules/site-header";
 @import "modules/main-navigation";
 @import "modules/hero-slider";
+@import "modules/headline";
+@import "modules/btn";
