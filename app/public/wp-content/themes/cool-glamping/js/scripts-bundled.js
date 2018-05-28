@@ -10334,7 +10334,14 @@ var _jquery = _interopRequireDefault(__webpack_require__(0));
 
 var _slickCarousel = _interopRequireDefault(__webpack_require__(2));
 
+var _SectionOneTop = _interopRequireDefault(__webpack_require__(3));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// 3rd party packages from NPM
+// Our Modules / Classes
+// Instantiate a new object using our modules/classes
+var sectionOneTop = new _SectionOneTop.default();
 
 /***/ }),
 /* 2 */
@@ -13355,6 +13362,54 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 }));
 
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _jquery = _interopRequireDefault(__webpack_require__(0));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var SectionOneTop =
+/*#__PURE__*/
+function () {
+  function SectionOneTop() {
+    _classCallCheck(this, SectionOneTop);
+
+    this.head = (0, _jquery.default)(".site-header");
+    this.sectionOne = (0, _jquery.default)(".section-one");
+    this.initTop();
+  }
+
+  _createClass(SectionOneTop, [{
+    key: "initTop",
+    value: function initTop() {
+      var height = this.head.outerHeight();
+      this.sectionOne.css('padding-top', height + 'px');
+      console.log(height);
+    }
+  }]);
+
+  return SectionOneTop;
+}();
+
+var _default = SectionOneTop;
+exports.default = _default;
 
 /***/ })
 /******/ ]);

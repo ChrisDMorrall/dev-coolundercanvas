@@ -85,8 +85,7 @@ figure {
  */
 
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box; /* 1 */
+  box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
@@ -122,8 +121,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -330,8 +328,7 @@ fieldset {
  */
 
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
@@ -364,8 +361,7 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 
@@ -465,18 +461,12 @@ template {
     position: relative;
 
     display: block;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    box-sizing: border-box;
+    user-select: none;
 
     -webkit-touch-callout: none;
     -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
+    touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -505,8 +495,7 @@ template {
 .slick-slider .slick-track,
 .slick-slider .slick-list
 {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .slick-track
@@ -698,7 +687,7 @@ p, li {
 
 .site-header {
   z-index: 3;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -725,19 +714,14 @@ p, li {
     top: -20px;
     padding-top: 58px;
     opacity: 0;
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
-    -webkit-transition: opacity .3s ease-out, visibility .3s ease-out, -webkit-transform .3s ease-out;
-    transition: opacity .3s ease-out, visibility .3s ease-out, -webkit-transform .3s ease-out;
+    transform: translateY(-20%);
     transition: opacity .3s ease-out, visibility .3s ease-out, transform .3s ease-out;
-    transition: opacity .3s ease-out, visibility .3s ease-out, transform .3s ease-out, -webkit-transform .3s ease-out;
     padding-bottom: 20px;
   }
 
 .site-header__menu--active {
       opacity: 1;
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
       visibility: visible;
     }
 
@@ -746,8 +730,7 @@ p, li {
 .site-header__menu {
       visibility: visible;
       opacity: 1;
-      -webkit-transform: translateY(0) scale(1);
-              transform: translateY(0) scale(1);
+      transform: translateY(0) scale(1);
       position: relative;
       background-color: transparent;
       /* float: right; */
@@ -821,3 +804,89 @@ p, li {
 .main-navigation a:hover {
   color: #FAF0CA;
 }
+
+.hero-slider {
+  position: relative;
+
+}
+
+.hero-slider div {
+    outline: none;
+  }
+
+.hero-slider__interior {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+@media (min-width: 960px) {
+
+.hero-slider__interior {
+      padding-top: 130px;
+      padding-bottom: 130px
+  }
+  }
+
+.hero-slider__slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.hero-slider__overlay {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .68);
+    padding: 40px;
+    color: #FFF;
+  }
+
+@media (min-width: 960px) {
+
+.hero-slider__overlay {
+      width: 50%
+  }
+  }
+
+.slick-dots {
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  top: 15px;
+}
+
+@media (min-width: 960px) {
+
+.slick-dots {
+    top: 50px
+}
+  }
+
+.slick-dots li {
+    list-style: none;
+    display: inline;
+  }
+
+.slick-dots li button {
+    display: inline-block;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+    border-radius: 50%;
+    border: none;
+    margin: 0 4px;
+    padding: 0;
+    outline: none;
+    transition: background-color .3s ease-out;
+    cursor: pointer;
+  }
+
+.slick-dots .slick-active button {
+    background-color: #FFF;
+  }
