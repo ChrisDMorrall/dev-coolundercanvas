@@ -13446,7 +13446,7 @@ function () {
   function HeroSlider() {
     _classCallCheck(this, HeroSlider);
 
-    this.els = (0, _jquery.default)(".hero-slider");
+    this.els = (0, _jquery.default)('.hero-slider');
     this.initSlider();
   }
 

@@ -16,7 +16,7 @@
 
   &--medium {
     font-size: 1.9rem;
-    margin-bottom: .75rem;
+    margin-bottom: 1rem;
     @mixin atSmall {
       font-size: 3.125rem;
     }

@@ -721,7 +721,6 @@ p, li {
     left: 0;
     right: 0;
     top: 110px;
-    text-align: center;
     padding-top: 10px;
     opacity: 0;
     transform: translateY(-20%);
@@ -969,7 +968,7 @@ p, li {
 
 .headline--medium {
     font-size: 1.9rem;
-    margin-bottom: .75rem;
+    margin-bottom: 1rem;
   }
 
 @media (min-width: 530px) {
@@ -1094,3 +1093,8 @@ p, li {
     cursor: default;
     color: #333;
   }
+
+.hook-strip  {
+  /* background-color: $lightGreen; */
+  padding: 40px 0;
+}
