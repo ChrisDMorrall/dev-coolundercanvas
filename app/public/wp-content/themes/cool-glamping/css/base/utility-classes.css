@@ -3,6 +3,19 @@
   margin: 0 auto;
   padding: 0 16px;
   position: relative;
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @mixin atMedium {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+  }
 }
 
 .container--narrow {
