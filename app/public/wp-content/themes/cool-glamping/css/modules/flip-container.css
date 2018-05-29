@@ -1,6 +1,7 @@
 /* entire container, keeps perspective */
 .flip-container {
 	perspective: 1000px;
+  overflow: hidden;
 
   &__inner-front {
     background-color: $mainGreen;
