@@ -27,8 +27,9 @@
     background-color: color($mainGreen a(89%) b(+3%));
     left: 0;
     right: 0;
-    top: -20px;
-    padding-top: 58px;
+    top: 110px;
+    text-align: center;
+    padding-top: 10px;
     opacity: 0;
     transform: translateY(-20%);
     transition: opacity .3s ease-out, visibility .3s ease-out, transform .3s ease-out;

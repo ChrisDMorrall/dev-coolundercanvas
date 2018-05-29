@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     white-space: nowrap;
-    min-width: 625px;
+
   }
 
   ul:before,
@@ -21,6 +21,7 @@
   @mixin atMedium {
     float: left;
     margin-right: 20px;
+    min-width: 625px;
   }
 }
 

@@ -85,8 +85,7 @@ figure {
  */
 
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box; /* 1 */
+  box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
@@ -122,8 +121,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -330,8 +328,7 @@ fieldset {
  */
 
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
@@ -364,8 +361,7 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 
@@ -465,18 +461,12 @@ template {
     position: relative;
 
     display: block;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    box-sizing: border-box;
+    user-select: none;
 
     -webkit-touch-callout: none;
     -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
+    touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -505,8 +495,7 @@ template {
 .slick-slider .slick-track,
 .slick-slider .slick-list
 {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .slick-track
@@ -731,22 +720,18 @@ p, li {
     background-color: rgba(56, 145, 132, 0.89);
     left: 0;
     right: 0;
-    top: -20px;
-    padding-top: 58px;
+    top: 110px;
+    text-align: center;
+    padding-top: 10px;
     opacity: 0;
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
-    -webkit-transition: opacity .3s ease-out, visibility .3s ease-out, -webkit-transform .3s ease-out;
-    transition: opacity .3s ease-out, visibility .3s ease-out, -webkit-transform .3s ease-out;
+    transform: translateY(-20%);
     transition: opacity .3s ease-out, visibility .3s ease-out, transform .3s ease-out;
-    transition: opacity .3s ease-out, visibility .3s ease-out, transform .3s ease-out, -webkit-transform .3s ease-out;
     padding-bottom: 20px;
   }
 
 .site-header__menu--active {
       opacity: 1;
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
       visibility: visible;
     }
 
@@ -755,8 +740,7 @@ p, li {
 .site-header__menu {
       visibility: visible;
       opacity: 1;
-      -webkit-transform: translateY(0) scale(1);
-              transform: translateY(0) scale(1);
+      transform: translateY(0) scale(1);
       position: relative;
       background-color: transparent;
       /* float: right; */
@@ -809,7 +793,7 @@ p, li {
     padding: 0;
     margin: 0;
     white-space: nowrap;
-    min-width: 625px;
+
   }
 
 .main-navigation ul:before,
@@ -826,7 +810,8 @@ p, li {
 
 .main-navigation {
     float: left;
-    margin-right: 20px
+    margin-right: 20px;
+    min-width: 625px
 }
   }
 
@@ -946,14 +931,12 @@ p, li {
     width: 10px;
     height: 10px;
     background-color: rgba(255, 255, 255, .5);
-    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
-            box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
     border-radius: 50%;
     border: none;
     margin: 0 4px;
     padding: 0;
     outline: none;
-    -webkit-transition: background-color .3s ease-out;
     transition: background-color .3s ease-out;
     cursor: pointer;
   }
@@ -1061,7 +1044,6 @@ p, li {
   }
 
 .btn--orange:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(#EE964B), to(rgb(235, 109, 0)));
     background: linear-gradient(#EE964B, rgb(235, 109, 0));
   }
 
@@ -1070,7 +1052,6 @@ p, li {
   }
 
 .btn--dark-orange:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(#F95738), to(rgb(204, 34, 0)));
     background: linear-gradient(#F95738, rgb(204, 34, 0));
   }
 
@@ -1079,7 +1060,6 @@ p, li {
   }
 
 .btn--dark-green:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(56, 194, 173)), to(#399889));
     background: linear-gradient(rgb(56, 194, 173), #399889);
   }
 

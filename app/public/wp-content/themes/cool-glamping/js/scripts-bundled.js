@@ -13498,6 +13498,7 @@ function () {
 
     this.menu = (0, _jquery.default)(".site-header__menu");
     this.openButton = (0, _jquery.default)(".site-header__menu-trigger");
+    this.slickDots = (0, _jquery.default)(".slick-dots");
     this.events();
   }
 
@@ -13511,6 +13512,7 @@ function () {
     value: function openMenu() {
       this.openButton.toggleClass("fa-bars fa-window-close");
       this.menu.toggleClass("site-header__menu--active");
+      this.slickDots.toggleClass("hide");
     }
   }]);
 
