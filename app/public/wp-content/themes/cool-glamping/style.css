@@ -726,7 +726,7 @@ p, li {
 /* BEM Blocks to import*/
 
 .site-header {
-  z-index: 3;
+  z-index: 101;
   position: fixed;
   top: 0;
   left: 0;
@@ -739,6 +739,7 @@ p, li {
 
 .site-header__logo-bar {
     min-width: 300px;
+    max-height: 102px;
   }
 
 @media (min-width: 960px) {
@@ -919,7 +920,7 @@ p, li {
 .hero-slider__slide {
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 450px;
     background-repeat: no-repeat;
   }
 
@@ -995,7 +996,6 @@ p, li {
 .headline {
   margin: 0;
   font-weight: 300;
-
 }
 
 .headline--large {
@@ -1060,6 +1060,17 @@ p, li {
 
 .headline--post-title a:hover {
     text-decoration: underline;
+  }
+
+.headline__hr-center {
+    width: 50%;
+    height: 3px;
+    margin-top: 1.5em;
+    margin-right: 25%;
+    margin-left: 25%;
+    border: 0;
+    font-size: 0.3em;
+    background-color: #2A766B;
   }
 
 .btn {
@@ -1156,19 +1167,42 @@ p, li {
 	-webkit-perspective: 1000px;
 	        perspective: 1000px;
   overflow: hidden;
+  padding: 20px 0;
 }
 
+.flip-container__inner {
+    margin: 10px;
+    height: 410px;
+    /* border: 1px solid darkgrey; */
+    border-radius: 10px;
+    -webkit-box-shadow: 0 6px 15px -1px #777;
+            box-shadow: 0 6px 15px -1px #777;
+  }
+
 .flip-container__inner-front {
-    background-color: #399889;
-    margin: 30px;
-    height: inherit;
+    /* background-color: $paleGreen; */
   }
 
 .flip-container__inner-back {
     background-color: #b0d39e;
-    margin: 30px;
-    height: inherit;
+    font-weight: 200;
+    height: 370px;
+    padding: 20px 15px;
+    -webkit-box-shadow: 6px 6px 10px -3px #777;
+            box-shadow: 6px 6px 10px -3px #777;
   }
+
+.flip-container__img {
+    border-radius: 10px 10px 0 0;
+  }
+
+.flip-container__arrow {
+    font-size: 4rem;
+  }
+
+.flip-container h2 {
+  font-weight: 200;
+}
 
 /* flip the pane when hovered */
 
@@ -1187,7 +1221,7 @@ p, li {
 
 .flip-container, .front, .back {
 	width: 320px;
-	height: 480px;
+	height: 430px;
 
 }
 

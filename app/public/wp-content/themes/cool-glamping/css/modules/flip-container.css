@@ -2,18 +2,40 @@
 .flip-container {
 	perspective: 1000px;
   overflow: hidden;
+  padding: 20px 0;
+
+
+  &__inner {
+    margin: 10px;
+    height: 410px;
+    /* border: 1px solid darkgrey; */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px -1px #777;
+  }
 
   &__inner-front {
-    background-color: $mainGreen;
-    margin: 30px;
-    height: inherit;
+    /* background-color: $paleGreen; */
   }
 
   &__inner-back {
     background-color: $lightGreen;
-    margin: 30px;
-    height: inherit;
+    font-weight: 200;
+    height: 370px;
+    padding: 20px 15px;
+    box-shadow: 6px 6px 10px -3px #777;
   }
+
+  &__img {
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__arrow {
+    font-size: 4rem;
+  }
+}
+
+.flip-container h2 {
+  font-weight: 200;
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -30,7 +52,7 @@
 
 .flip-container, .front, .back {
 	width: 320px;
-	height: 480px;
+	height: 430px;
 
 }
 

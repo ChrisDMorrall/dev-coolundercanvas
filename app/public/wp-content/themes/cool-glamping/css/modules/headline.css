@@ -54,4 +54,14 @@
     text-decoration: underline;
   }
 
+  &__hr-center {
+    width: 50%;
+    height: 3px;
+    margin-top: 1.5em;
+    margin-right: 25%;
+    margin-left: 25%;
+    border: 0;
+    font-size: 0.3em;
+    background-color: #2A766B;
+  }
 }

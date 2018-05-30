@@ -1,5 +1,5 @@
 .site-header {
-  z-index: 3;
+  z-index: 101;
   position: fixed;
   top: 0;
   left: 0;
@@ -9,6 +9,7 @@
 
   &__logo-bar {
     min-width: 300px;
+    max-height: 102px;
 
     @mixin atMedium {
       min-width: 625px;
