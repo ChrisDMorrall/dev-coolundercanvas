@@ -1156,6 +1156,12 @@ p, li {
     color: #333;
   }
 
+.btn--fix-bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 85px;
+  }
+
 .hook-strip  {
   /* background-color: $lightGreen; */
   padding: 40px 0;
