@@ -5,7 +5,42 @@
     padding: 0;
     margin: 0;
     white-space: nowrap;
+  }
 
+  &__dropdown ul {
+    display: none;
+  }
+
+  &__dropdown:hover ul{
+    display: inline-block;
+
+
+
+    @mixin atMedium {
+      display: block !important;
+      padding-top: 10px;
+      position: absolute;
+    }
+
+  }
+
+  &__dropdown li{
+    font-size: 0.75rem;
+    text-align: left;
+
+    @mixin atMedium {
+      display: block !important;
+      list-style-type: circle;
+      clear: left;
+      background-color: $darkHeader;
+      width: 100px;
+      padding: 0 10px 10px 0;
+    }
+
+  }
+
+  &__dropdown-icon {
+    font-size: 0.85rem;
   }
 
   ul:before,
@@ -21,7 +56,7 @@
   @mixin atMedium {
     float: left;
     margin-right: 20px;
-    min-width: 625px;
+    min-width: 650px;
   }
 }
 
@@ -45,6 +80,8 @@
     display: inline-block;
     padding: 0;
   }
+
+
 }
 
 .main-navigation .current-menu-item a,
