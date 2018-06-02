@@ -3,22 +3,6 @@
   margin-top: 30px;
   padding: 50px 0;
 
-  &__logo-bar {
-    min-width: 300px;
-    max-height: 102px;
-
-    @mixin atMedium {
-      min-width: 625px;
-    }
-  }
-
-  &__logo {
-    margin: auto;
-    width: 150px;
-    margin-bottom: 15px;
-    margin-top: 20px;
-  }
-
   &__social-icons {
     margin: auto;
     text-align: center;
