@@ -15,6 +15,7 @@ Version: 1.0
 
 /* BEM Blocks to import*/
 @import "modules/site-header";
+@import "modules/site-footer";
 @import "modules/main-navigation";
 @import "modules/hero-slider";
 @import "modules/headline";

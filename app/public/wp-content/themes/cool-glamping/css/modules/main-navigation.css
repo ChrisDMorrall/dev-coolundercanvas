@@ -32,7 +32,7 @@
       display: block !important;
       list-style-type: circle;
       clear: left;
-      background-color: $darkHeader;
+      background-color: $darkBackground;
       width: 100px;
       padding: 0 10px 10px 0;
     }
@@ -40,7 +40,7 @@
   }
 
   &__dropdown-icon {
-    font-size: 0.85rem;
+    font-size: 0.65rem;
   }
 
   ul:before,

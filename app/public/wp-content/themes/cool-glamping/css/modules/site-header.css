@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   padding: 20px 0;
-  background-color: $darkHeader;
+  background-color: $darkBackground;
 
   &__logo-bar {
     min-width: 300px;

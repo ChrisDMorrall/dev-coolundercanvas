@@ -1,0 +1,53 @@
+.site-footer {
+  background-color: $darkBackground;
+  margin-top: 30px;
+  padding: 50px 0;
+
+  &__logo-bar {
+    min-width: 300px;
+    max-height: 102px;
+
+    @mixin atMedium {
+      min-width: 625px;
+    }
+  }
+
+  &__logo {
+    margin: auto;
+    width: 150px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+
+  &__social-icons {
+    margin: auto;
+    text-align: center;
+  }
+
+  &__icon-background {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100em;
+    text-align: center;
+    width: 54px;
+    height: 54px;
+    font-size: 1.32rem;
+    color: #FFF;
+    margin: 0 1.25%;
+    box-sizing: border-box;
+    line-height: 54px;
+    display: inline-block;
+  }
+
+  &__icon {
+
+    /* position: relative; */
+    /* top: 10px;
+    right: 10px; */
+  }
+
+  &__copy {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: $lightGrey;
+  }
+}
