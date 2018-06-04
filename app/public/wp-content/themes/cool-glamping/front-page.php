@@ -41,14 +41,14 @@ Section 1 - Hero Slider Section
 <!-- Flipping Card Section for key information -->
 
 <section class="section-three">
-  <div class="container container__flex">
+  <div class="container container__flex container__flex--front-page">
     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
           <div class="flip-container__inner flip-container__inner-front t-center">
             <img class="flip-container__img" src="https://images.pexels.com/photos/264109/pexels-photo-264109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="family">
             <h2>Family Friendly</h2>
-            <i class="fa fa-arrow-circle-right flip-container__arrow t-center" aria-hidden="true"></i>
+            <i class="fa fa-arrow-circle-right flip-container__icon-large t-center" aria-hidden="true"></i>
           </div>
         </div>
         <div class="back">
@@ -65,7 +65,7 @@ Section 1 - Hero Slider Section
           <div class="flip-container__inner flip-container__inner-front t-center">
             <img class="flip-container__img" src="https://images.unsplash.com/photo-1510034141778-a4d065653d92?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e45b24be03d6d375ad51287db3f8d961&auto=format&fit=crop&w=500&q=60" alt="family">
             <h2>Eco Conscious</h2>
-            <i class="fa fa-arrow-circle-right flip-container__arrow t-center" aria-hidden="true"></i>
+            <i class="fa fa-arrow-circle-right flip-container__icon-large t-center" aria-hidden="true"></i>
           </div>
         </div>
         <div class="back">
@@ -82,7 +82,7 @@ Section 1 - Hero Slider Section
           <div class="flip-container__inner flip-container__inner-front t-center">
             <img class="flip-container__img" src="https://images.unsplash.com/photo-1523297741243-79e695ee9a44?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5ca9f6871b71be7ec386093475dca981&auto=format&fit=crop&w=500&q=60" alt="family">
             <h2>Relax or Explore</h2>
-            <i class="fa fa-arrow-circle-right flip-container__arrow t-center" aria-hidden="true"></i>
+            <i class="fa fa-arrow-circle-right flip-container__icon-large t-center" aria-hidden="true"></i>
           </div>
         </div>
         <div class="back">
@@ -95,14 +95,14 @@ Section 1 - Hero Slider Section
     </div>
   </div>
 
-  <div class="container container__flex container--flex-last">
+  <div class="container container__flex container__flex--front-page container--flex-last">
     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
       <div class="flipper">
         <div class="front">
           <div class="flip-container__inner flip-container__inner-front t-center">
             <img class="flip-container__img" src="https://images.pexels.com/photos/264109/pexels-photo-264109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="family">
             <h2>Family Friendly</h2>
-            <i class="fa fa-arrow-circle-right flip-container__arrow t-center" aria-hidden="true"></i>
+            <i class="fa fa-arrow-circle-right flip-container__icon-large t-center" aria-hidden="true"></i>
           </div>
         </div>
         <div class="back">
@@ -119,7 +119,7 @@ Section 1 - Hero Slider Section
           <div class="flip-container__inner flip-container__inner-front t-center">
             <img class="flip-container__img" src="https://images.unsplash.com/photo-1510034141778-a4d065653d92?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e45b24be03d6d375ad51287db3f8d961&auto=format&fit=crop&w=500&q=60" alt="family">
             <h2>Eco Conscious</h2>
-            <i class="fa fa-arrow-circle-right flip-container__arrow t-center" aria-hidden="true"></i>
+            <i class="fa fa-arrow-circle-right flip-container__icon-large t-center" aria-hidden="true"></i>
           </div>
         </div>
         <div class="back">
@@ -136,7 +136,7 @@ Section 1 - Hero Slider Section
           <div class="flip-container__inner flip-container__inner-front t-center">
             <img class="flip-container__img" src="https://images.unsplash.com/photo-1523297741243-79e695ee9a44?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5ca9f6871b71be7ec386093475dca981&auto=format&fit=crop&w=500&q=60" alt="family">
             <h2>Relax or Explore</h2>
-            <i class="fa fa-arrow-circle-right flip-container__arrow t-center" aria-hidden="true"></i>
+            <i class="fa fa-arrow-circle-right flip-container__icon-large t-center" aria-hidden="true"></i>
           </div>
         </div>
         <div class="back">

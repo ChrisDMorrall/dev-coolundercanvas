@@ -1,0 +1,81 @@
+.generic-content {
+
+  margin-top: 30px;
+
+  p, li {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
+
+  blockquote, blockquote p {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  h1 {font-size: 3.6rem}
+  h2 {font-size: 3.1rem}
+  h3 {font-size: 2.6rem}
+  h4 {font-size: 2.1rem}
+  h5 {font-size: 1.6rem}
+  h6 {font-size: 1.15rem}
+
+  @mixin atSmall {
+    h1 {font-size: 6.25rem}
+    h2 {font-size: 5rem}
+    h3 {font-size: 3.125rem}
+    h4 {font-size: 2.4rem}
+    h5 {font-size: 1.9rem}
+    h6 {font-size: 1.15rem}
+  }
+
+  &__featured-image {
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: 1px solid $lightGrey;
+    box-shadow: 5px 5px 10px grey;
+    padding: 10px;
+    width: 75%;
+  }
+
+  &__featured-image img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  &__featured-image-caption {
+    font-style: oblique;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+
+}
+
+/* Wordpress default classes */
+.alignleft {
+  float:left;
+  shape-outside: inset();
+  margin: 10px 20px;
+}
+
+.alignright {
+  float: right;
+  hape-outside: inset();
+  margin: 10px 20px;
+}
+
+.wp-caption {
+  font-style: oblique;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+
+}

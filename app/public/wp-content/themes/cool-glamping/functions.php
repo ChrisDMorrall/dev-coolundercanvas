@@ -45,3 +45,26 @@ function cool_features() {
 }
 
 add_action('after_setup_theme', 'cool_features');
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 30;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+function add_image_class($content){
+
+        $content = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
+        $document = new DOMDocument();
+        libxml_use_internal_errors(true);
+        $document->loadHTML(utf8_decode($content));
+
+        $imgs = $document->getElementsByTagName('img');
+        foreach ($imgs as $img) {
+           $img->setAttribute('class','generic-content__post-image');
+        }
+
+        $html = $document->saveHTML();
+        return $html;
+}
+
+add_filter('the_content', 'add_image_class');

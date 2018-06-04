@@ -12,6 +12,9 @@
 
     @mixin atMedium {
       flex-direction: row;
+    }
+
+    &--front-page {
       justify-content: space-around;
     }
 

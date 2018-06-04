@@ -32,7 +32,7 @@
             <li><a href="#">Bookings</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Gallery</a></li>
-            <li><a href="#">Blog</a></li>
+            <li <?php if (get_post_type() == 'post') echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
