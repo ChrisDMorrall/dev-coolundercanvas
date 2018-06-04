@@ -16,6 +16,10 @@
     }
 
   }
+
+  &--flex-last {
+    margin-bottom: 30px;
+  }
 }
 
 .container--narrow {

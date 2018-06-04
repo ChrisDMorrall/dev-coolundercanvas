@@ -1,6 +1,6 @@
 .site-header {
   z-index: 101;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;

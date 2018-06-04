@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
   <header class="site-header">
     <div class="container">
       <div class="site-header__logo-bar">
         <div class="site-header__logo">
-          <a href="#"><img src="<?php echo get_theme_file_uri('/img/cool_logo.png') ?>" alt="Cool Under Canvas Logo"></a>
+          <a href="<?php echo site_url(); ?>"><img src="<?php echo get_theme_file_uri('/img/cool_logo.png') ?>" alt="Cool Under Canvas Logo"></a>
         </div>
         <div>
           <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>

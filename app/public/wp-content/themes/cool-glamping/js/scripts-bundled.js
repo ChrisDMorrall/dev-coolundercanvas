@@ -10334,18 +10334,17 @@ var _jquery = _interopRequireDefault(__webpack_require__(0));
 
 var _slickCarousel = _interopRequireDefault(__webpack_require__(2));
 
-var _SectionOneTop = _interopRequireDefault(__webpack_require__(3));
+var _HeroSlider = _interopRequireDefault(__webpack_require__(3));
 
-var _HeroSlider = _interopRequireDefault(__webpack_require__(4));
-
-var _MobileMenu = _interopRequireDefault(__webpack_require__(5));
+var _MobileMenu = _interopRequireDefault(__webpack_require__(4));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // 3rd party packages from NPM
 // Our Modules / Classes
+// import SectionOneTop from './modules/SectionOneTop';
 // Instantiate a new object using our modules/classes
-var sectionOneTop = new _SectionOneTop.default();
+// var sectionOneTop = new SectionOneTop();
 var heroSlider = new _HeroSlider.default();
 var mobileMenu = new _MobileMenu.default();
 
@@ -13391,54 +13390,6 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-// Moves section-one down by setting top margin dynamicaly based on calculated header outerHeight to allow for variable header heights
-var SectionOneTop =
-/*#__PURE__*/
-function () {
-  function SectionOneTop() {
-    _classCallCheck(this, SectionOneTop);
-
-    this.head = (0, _jquery.default)(".site-header");
-    this.sectionOne = (0, _jquery.default)(".section-one");
-    this.initTop();
-  }
-
-  _createClass(SectionOneTop, [{
-    key: "initTop",
-    value: function initTop() {
-      var height = this.head.outerHeight();
-      this.sectionOne.css('padding-top', height + 'px');
-    }
-  }]);
-
-  return SectionOneTop;
-}();
-
-var _default = SectionOneTop;
-exports.default = _default;
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _jquery = _interopRequireDefault(__webpack_require__(0));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
 // Sets up slick-carousel slider for section-one
 var HeroSlider =
 /*#__PURE__*/
@@ -13469,7 +13420,7 @@ var _default = HeroSlider;
 exports.default = _default;
 
 /***/ }),
-/* 5 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
