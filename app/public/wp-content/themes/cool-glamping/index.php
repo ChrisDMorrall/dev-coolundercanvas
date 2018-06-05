@@ -10,10 +10,10 @@ pageBanner(array(
     <?php
       while(have_posts()) {
         the_post(); ?>
-        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flip-container flip-container--tall" ontouchstart="this.classList.toggle('hover');">
           <div class="flipper">
-            <div class="front">
-              <div class="flip-container__inner flip-container__inner-front t-center">
+            <div class="front front--tall">
+              <div class="flip-container__inner flip-container__inner-front flip-container__inner-front--tall t-center">
                 <img class="flip-container__img" src="<?php
                 if (has_post_thumbnail()) {
                   the_post_thumbnail_url('medium');
@@ -24,11 +24,11 @@ pageBanner(array(
                  ?>" alt="Thumbnail Image">
                 <h2><?php the_title(); ?></h2>
                 <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('F j, Y'); ?></p>
-                <i class="fab fa-readme flip-container__icon-large t-center" aria-hidden="true"></i>
+                <i class="fab fa-readme flip-container__icon-large t-center generic-content--icon-fix-bottom" aria-hidden="true"></i>
               </div>
             </div>
-            <div class="back">
-              <div class="flip-container__inner flip-container__inner-back">
+            <div class="back back--tall">
+              <div class="flip-container__inner flip-container__inner-back flip-container__inner-back--tall">
                 <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('F j, Y'); ?></p>
                 <p><?php the_excerpt(); ?></p>
                 <p class="t-center no-margin"><a href="<?php the_permalink(); ?>" class="btn btn--dark-green btn--fix-bottom">Read more</a></p>
