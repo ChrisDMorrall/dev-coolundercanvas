@@ -29,6 +29,7 @@
         <?php } ?>
       </div>
       <div class="generic-content"><?php the_content(); ?></div>
+      <!-- TODO:Work out how to style the div for each image -->
     </div>
 
   <?php }
