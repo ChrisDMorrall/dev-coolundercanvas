@@ -30,6 +30,11 @@ logs/
 *.sql
 *.sqlite
 
+# Images #
+##########
+*.jpg
+*.png
+
 # OS generated files #
 ######################
 .DS_Store

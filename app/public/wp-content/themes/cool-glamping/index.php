@@ -24,7 +24,7 @@ pageBanner(array(
                  ?>" alt="Thumbnail Image">
                 <h2><?php the_title(); ?></h2>
                 <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('F j, Y'); ?></p>
-                <i class="fab fa-readme flip-container__icon-large t-center generic-content--icon-fix-bottom" aria-hidden="true"></i>
+                <i class="fab fa-readme flip-container__icon-large t-center post-content--icon-fix-bottom" aria-hidden="true"></i>
               </div>
             </div>
             <div class="back back--tall">

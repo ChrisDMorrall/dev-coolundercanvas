@@ -1442,50 +1442,50 @@ p, li {
     margin: 0;
   }
 
-.generic-content {
+.post-content {
 
   margin-top: 30px;
 
 }
 
-.generic-content p, .generic-content li {
+.post-content p, .post-content li {
     font-size: 0.9rem;
     line-height: 1.6rem;
   }
 
-.generic-content blockquote, .generic-content blockquote p {
+.post-content blockquote, .post-content blockquote p {
     font-size: 1.3rem;
     font-style: italic;
   }
 
-.generic-content h1, .generic-content h2, .generic-content h3, .generic-content h4, .generic-content h5, .generic-content h6 {
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 1rem;
   }
 
-.generic-content h1 {font-size: 3.6rem}
+.post-content h1 {font-size: 3.6rem}
 
-.generic-content h2 {font-size: 3.1rem}
+.post-content h2 {font-size: 3.1rem}
 
-.generic-content h3 {font-size: 2.6rem}
+.post-content h3 {font-size: 2.6rem}
 
-.generic-content h4 {font-size: 2.1rem}
+.post-content h4 {font-size: 2.1rem}
 
-.generic-content h5 {font-size: 1.6rem}
+.post-content h5 {font-size: 1.6rem}
 
-.generic-content h6 {font-size: 1.15rem}
+.post-content h6 {font-size: 1.15rem}
 
 @media (min-width: 530px) {
-    .generic-content h1 {font-size: 6.25rem}
-    .generic-content h2 {font-size: 5rem}
-    .generic-content h3 {font-size: 3.125rem}
-    .generic-content h4 {font-size: 2.4rem}
-    .generic-content h5 {font-size: 1.9rem}
-    .generic-content h6 {font-size: 1.15rem}
+    .post-content h1 {font-size: 6.25rem}
+    .post-content h2 {font-size: 5rem}
+    .post-content h3 {font-size: 3.125rem}
+    .post-content h4 {font-size: 2.4rem}
+    .post-content h5 {font-size: 1.9rem}
+    .post-content h6 {font-size: 1.15rem}
   }
 
-.generic-content__featured-image {
+.post-content__featured-image {
     margin: auto;
     margin-top: 50px;
     border-radius: 8px;
@@ -1496,13 +1496,13 @@ p, li {
     width: 75%;
   }
 
-.generic-content__featured-image img {
+.post-content__featured-image img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
   }
 
-.generic-content__featured-image-caption {
+.post-content__featured-image-caption {
     font-size: 0.7rem;
     font-weight: 500;
     text-align: center;
@@ -1510,7 +1510,7 @@ p, li {
     margin-bottom: 0;
   }
 
-.generic-content--icon-fix-bottom {
+.post-content--icon-fix-bottom {
     position: absolute;
     bottom: 30px;
     left: 125px;
@@ -1631,4 +1631,102 @@ a img.aligncenter {
 	width: auto;
 	z-index: 100000;
 	/* Above WP toolbar. */
+}
+
+/* Wordpress Default Classes */
+
+.comments-area {
+
+  }
+
+.comments-title {
+
+  }
+
+.comment-body {
+    border: 1px solid #b7b7b7;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 10px Grey;
+            box-shadow: 5px 5px 10px Grey;
+    margin: 0 0 25px 0;
+    padding: 25px;
+  }
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+  }
+
+.comment-author {
+    float: left;
+  }
+
+.comment-meta {
+    margin-left: 100px;
+  }
+
+.comment-meta a {
+    clear: left;
+  }
+
+.comment-respond {
+
+  }
+
+.comment__cite {
+
+  }
+
+.comment__timestamp {
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+
+.comment__timestamp:hover {
+    color: #399889;
+    font-weight: 600;
+  }
+
+.comment__timestamp-div {
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 10px;
+  }
+
+.reply {
+  clear: left;
+  margin-left: 12px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #b7b7b7;
+  float: left;
+}
+
+.reply__icon {
+
+  }
+
+.reply a {
+  text-decoration: none;
+  color: #b7b7b7;
+}
+
+.reply a:hover {
+  color: #399889;
+  font-weight: 700;
+}
+
+.vcard {
+
+}
+
+.odd {
+
+}
+
+.alt {
+
+}
+
+.thread-odd {
+
 }
