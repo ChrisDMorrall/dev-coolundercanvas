@@ -1692,6 +1692,50 @@ a img.aligncenter {
     margin-bottom: 10px;
   }
 
+.comment-form-comment label {
+    display: none;
+  }
+
+.comment-form-comment textarea {
+    border: 1px solid #b7b7b7;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 10px Grey;
+            box-shadow: 5px 5px 10px Grey;
+    padding: 10px;
+  }
+
+.comment-form-url {
+    display: none;
+  }
+
+.comment-form-author input, .comment-form-email input {
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.4);
+            box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    height: 25px;
+    padding: 5px 10px;
+  }
+
+.comment-form-cookies-consent label {
+    margin-left: 10px;
+  }
+
+.submit {
+  border-radius: 4px;
+  background-color: #399889;
+  font-size: 1.19rem;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  color: #FFF;
+}
+
+.submit:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(56, 194, 173)), to(#399889));
+  background: linear-gradient(rgb(56, 194, 173), #399889);
+}
+
 .reply {
   clear: left;
   margin-left: 12px;

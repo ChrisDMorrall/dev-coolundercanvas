@@ -63,6 +63,47 @@
     border-bottom: 1px solid #f2f2f2;
     margin-bottom: 10px;
   }
+
+  &-form-comment label {
+    display: none;
+  }
+
+  &-form-comment textarea {
+    border: 1px solid $lightGrey;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px Grey;
+    padding: 10px;
+  }
+
+  &-form-url {
+    display: none;
+  }
+
+  &-form-author input, &-form-email input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    height: 25px;
+    padding: 5px 10px;
+  }
+
+  &-form-cookies-consent label {
+    margin-left: 10px;
+  }
+}
+
+.submit {
+  border-radius: 4px;
+  background-color: $mainGreen;
+  font-size: 1.19rem;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  color: #FFF;
+}
+
+.submit:hover {
+  background: linear-gradient(rgb(56, 194, 173), $mainGreen);
 }
 
 .reply {
