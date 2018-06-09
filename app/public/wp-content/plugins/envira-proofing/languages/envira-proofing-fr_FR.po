@@ -1,0 +1,484 @@
+# Copyright (C) 2017 Envira Gallery - Proofing Addon
+# This file is distributed under the same license as the Envira Gallery - Proofing Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Envira Gallery - Proofing Addon 1.1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/envira-proofing\n"
+"POT-Creation-Date: 2017-07-27 15:19+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-07-27 15:55+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: includes/admin/metaboxes.php:86
+msgid "Are you sure you want to delete this size?"
+msgstr "Êtes-vous sûr de vouloir supprimer cette dimension ?"
+
+#: includes/admin/metaboxes.php:87
+msgid ""
+"Are you sure you want to clear this order? This action cannot be reversed, "
+"and the user will need to re-order again."
+msgstr ""
+"Êtes-vous sûr de que vouloir supprimer cette commande ? Cette action ne peut "
+"pas être annumée, et l’utilisateur devra commander à nouveau."
+
+#: includes/admin/metaboxes.php:88
+msgid ""
+"Are you sure you want to unlock this order? This action cannot be reversed, "
+"and the user will need to re-submit again."
+msgstr ""
+"Êtes-vous certain de que vouloir débloquer cette commande ? Cette action ne "
+"peut pas être annulée, et l’utilisateur doit soumettre sa commande à nouveau."
+
+#: includes/admin/metaboxes.php:108
+msgid "Proofing"
+msgstr "Épreuvage"
+
+#: includes/admin/metaboxes.php:127
+msgid "Display Proofing Options?"
+msgstr "Afficher les options d'épreuvage ?"
+
+#: includes/admin/metaboxes.php:131
+msgid ""
+"If enabled, and the Proofing Addon is configured, displays Proofing options "
+"for each image in the Lightbox view."
+msgstr ""
+"Si activé, et l’Addon d’épreuvage configuré, affiche les options d’épreuvage "
+"pour chaque image dans la Lightbox."
+
+#: includes/admin/metaboxes.php:162
+msgid "Want to preconfigure Proofing options and sizes?"
+msgstr "Préconfigurer les tailles et les options d’épreuvage ?"
+
+#: includes/admin/metaboxes.php:163
+msgid ""
+"Install and activate the <strong>Envira Defaults Addon</strong> to set "
+"Proofing options for all future Envira Galleries."
+msgstr ""
+"Installer et activer <strong>Envira Default Addon</strong> pour définir les "
+"options d’épreuvage pour toutes les futures galeries Envira."
+
+#: includes/admin/metaboxes.php:165
+msgid "Click here to manage your Envira Addons"
+msgstr "Cliquez ici pour gérer vos addons Envira"
+
+#: includes/admin/metaboxes.php:174
+msgid "Proofing Gallery Settings"
+msgstr "Paramètres d’épreuvage de galerie"
+
+#: includes/admin/metaboxes.php:176
+msgid "The settings below adjust the Proofing options for the Gallery."
+msgstr ""
+"Les paramètres ci-dessous permettent de régler les options d’épreuvage pour "
+"la galerie."
+
+#: includes/admin/metaboxes.php:178
+msgid "Need some help?"
+msgstr "Besoin d’aide ?"
+
+#: includes/admin/metaboxes.php:180
+msgid "Read the Documentation"
+msgstr "Lire la documentation"
+
+#: includes/admin/metaboxes.php:184
+msgid "Watch a Video"
+msgstr "Visionner une vidéo"
+
+#: includes/admin/metaboxes.php:192
+msgid "Enabled?"
+msgstr "Activé ?"
+
+#: includes/admin/metaboxes.php:196
+msgid "Enables or disables the Proofing selection process."
+msgstr "Active ou désactive le processus de sélection d’épreuvage."
+
+#: includes/admin/metaboxes.php:201
+msgid "Allow User to Edit Submitted Order?"
+msgstr "Permettre à l’utilisateur de modifier sa commande ?"
+
+#: includes/admin/metaboxes.php:205
+msgid "Allow Users to edit a Proofing Order they have previously submitted."
+msgstr ""
+"Permettre aux utilisateurs de modifier une commande d'épreuvage précédemment "
+"envoyée."
+
+#: includes/admin/metaboxes.php:210
+msgid "Allow User to Delete Submitted Order?"
+msgstr "Permettre aux utilisateur de supprimer sa commande ?"
+
+#: includes/admin/metaboxes.php:214
+msgid "Allow Users to delete a Proofing Order they have previously submitted."
+msgstr ""
+"Permettre aux utilisateurs de supprimer une commande d'épreuvage "
+"précédemment envoyée."
+
+#: includes/admin/metaboxes.php:219
+msgid "Require Email Address"
+msgstr "Nécessite une adresse e-mail"
+
+#: includes/admin/metaboxes.php:223
+msgid ""
+"If enabled, each visitor will need to supply their email address to make an "
+"order. This is useful if you have more than one person submitting orders and/"
+"or if the gallery is public. Orders will also be displayed by each "
+"individual email address below."
+msgstr ""
+"Si activée, chaque visiteur devra fournir son adresse de courriel pour "
+"passer une commande. C'est utile si vous avez plus d’une personne qui "
+"passent commande et/ou si la galerie est publique. Les commandes "
+"s’afficheront c-i-dessous également pour chaque adresse e-mail."
+
+#: includes/admin/metaboxes.php:228
+msgid "Display Email Form?"
+msgstr "Afficher le forumaire e-mail ?"
+
+#: includes/admin/metaboxes.php:236
+msgid "Display the email form above or below gallery images."
+msgstr ""
+"Affichez le formulaire e-mail au-dessus ou au-dessous des images de la "
+"galerie."
+
+#: includes/admin/metaboxes.php:241
+msgid "Add Name Field?"
+msgstr "Ajouter le champ Nom ?"
+
+#: includes/admin/metaboxes.php:245
+msgid ""
+"If enabled, each visitor will be asked for their name as well as their email "
+"address."
+msgstr ""
+"Si activé, chaque visiteur devra renseigner son nom en plus de son adresse e-"
+"mail."
+
+#: includes/admin/metaboxes.php:251
+msgid "Hide Gallery until Email Address entered?"
+msgstr "Masquer la galerie jusqu'à ce qu'une adresse e-mail soit saisie ?"
+
+#: includes/admin/metaboxes.php:255
+msgid ""
+"Check this option if you do not want to display the Gallery until the user "
+"has entered their email address."
+msgstr ""
+"Cochez cette option si vous ne souhaitez pas afficher la galerie jusqu'à ce "
+"que l’utilisateur a entré son adresse de e-mail."
+
+#: includes/admin/metaboxes.php:261
+msgid "Enable Quantity Field?"
+msgstr "Activer le champ quantité ?"
+
+#: includes/admin/metaboxes.php:265
+msgid ""
+"Enables or disables the option for the user to specify a quantity to order "
+"for each image."
+msgstr ""
+"Active ou désactive l’option pour que l’utilisateur puisse spécifier une "
+"quantité à commander pour chaque image."
+
+#: includes/admin/metaboxes.php:271
+msgid "Enable Size Options?"
+msgstr "Activer les options de dimensions ?"
+
+#: includes/admin/metaboxes.php:275
+msgid ""
+"Enables or disables the option for the user to order different size(s) for "
+"each image."
+msgstr ""
+"Active ou désactive l’option pour l’utilisateur puisse commander différentes "
+"dimensions de chaque image."
+
+#: includes/admin/metaboxes.php:282
+msgid "Sizes"
+msgstr "Dimensions"
+
+#: includes/admin/metaboxes.php:283
+msgid "Add Size"
+msgstr "Ajouter une dimension"
+
+#: includes/admin/metaboxes.php:295
+msgid "4x6, 8x10 etc"
+msgstr "4 x 6, 8 x 10, etc."
+
+#: includes/admin/metaboxes.php:310 includes/admin/metaboxes.php:333
+msgid "Move"
+msgstr "Déplacer"
+
+#: includes/admin/metaboxes.php:311 includes/admin/metaboxes.php:334
+#: includes/admin/metaboxes.php:518
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/admin/metaboxes.php:343
+msgid "Add to Order Label"
+msgstr "Intitulé de l'ajout à la commande"
+
+#: includes/admin/metaboxes.php:347
+msgid "The text to display on the Add to Order label in the Lightbox view."
+msgstr ""
+"Le texte à afficher sur l'intitulé d'ajout à la commande dans la Lightbox."
+
+#: includes/admin/metaboxes.php:352
+msgid "Save Button Label"
+msgstr "Intitulé du bouton Sauver"
+
+#: includes/admin/metaboxes.php:356
+msgid ""
+"The text to display on the save button, which allows the user to save the "
+"order."
+msgstr ""
+"Le texte à afficher sur le bouton enregistrer qui permet à l’utilisateur "
+"enregistrer sa commande."
+
+#: includes/admin/metaboxes.php:361
+msgid "Edit Order Button Label"
+msgstr "Intitulé du bouton d'édition de commande"
+
+#: includes/admin/metaboxes.php:365
+msgid ""
+"The text to display on the edit button, which allows the user to edit the "
+"order."
+msgstr ""
+"Le texte à afficher sur le bouton modifier, ce qui permet à l’utilisateur de "
+"modifier sa commande."
+
+#: includes/admin/metaboxes.php:370
+msgid "Delete Button Label"
+msgstr "Intitulé du bouton de suppression de commande"
+
+#: includes/admin/metaboxes.php:374
+msgid ""
+"The text to display on the delete button, which allows the user to delete "
+"the order."
+msgstr ""
+"Le texte à afficher sur le bouton supprimer qui permet à l’utilisateur de "
+"supprimer sa commande."
+
+#: includes/admin/metaboxes.php:379
+msgid "Submit Button Label"
+msgstr "Intitulé du bouton d'envoi de commande"
+
+#: includes/admin/metaboxes.php:383
+msgid ""
+"The text to display on the submit button, which allows the user to submit/"
+"finalise the order."
+msgstr ""
+"Le texte à afficher sur le bouton d'envoi de commande qui permet à "
+"l’utilisateur d'envoyer/finaliser sa commande."
+
+#: includes/admin/metaboxes.php:388
+msgid "Order Notes Placeholder Text"
+msgstr "Emplacements des informations de commande"
+
+#: includes/admin/metaboxes.php:392
+msgid "The placeholder text to display in the Order Notes field."
+msgstr ""
+"Le texte d’espace réservé à afficher dans le champ Informations de commande."
+
+#: includes/admin/metaboxes.php:397
+msgid "Save Notes Button Label"
+msgstr "Intitulé du bouton d'enregistrement des informations de commande"
+
+#: includes/admin/metaboxes.php:401
+msgid ""
+"The text to display on the save button, which is displayed once an order has "
+"been submitted."
+msgstr ""
+"Le texte à afficher sur le bouton d'enregistrement qui s’affiche une fois "
+"que la commande a été envoyée."
+
+#: includes/admin/metaboxes.php:406
+msgid "Submitted Message"
+msgstr "Message envoyé"
+
+#: includes/admin/metaboxes.php:421
+msgid "The text to display once the user has submitted their order"
+msgstr "Le texte à afficher lorsque l’utilisateur a envoyé sa commande"
+
+#: includes/admin/metaboxes.php:426
+msgid "Email Order Notifications To"
+msgstr "Notifications de commande par e-mail à"
+
+#: includes/admin/metaboxes.php:430
+msgid ""
+"Enter an email address to receive notifications when a new order is "
+"submitted. Leave blank if you do not want to receive email notifications."
+msgstr ""
+"Saisir une adresse e-mail pour recevoir des notifications dès qu’une "
+"nouvelle commande est envoyée. Laissez vide si vous ne souhaitez pas "
+"recevoir des notifications par courrier électronique."
+
+#: includes/admin/metaboxes.php:435
+msgid "Email Subject"
+msgstr "Sujet de l’e-mail"
+
+#: includes/admin/metaboxes.php:439
+msgid "The email message subject."
+msgstr "L’objet du message e-mail."
+
+#: includes/admin/metaboxes.php:444
+msgid "Email Message"
+msgstr "Message e-mail"
+
+#: includes/admin/metaboxes.php:460
+msgid "The email message sent once the user has submitted their order."
+msgstr ""
+"Le message électronique est envoyé une fois que l’utilisateur a envoyé sa "
+"commande."
+
+#: includes/admin/metaboxes.php:461
+msgid "Supported Tags:"
+msgstr "Tags pris en charge :"
+
+#: includes/admin/metaboxes.php:462
+msgid "The Gallery Title"
+msgstr "Titre de la Galerie"
+
+#: includes/admin/metaboxes.php:463
+msgid "The Gallery Edit URL"
+msgstr "URL d'édition de la galerie"
+
+#: includes/admin/metaboxes.php:464
+msgid "The customer's email address"
+msgstr "Adresse e-mail du client"
+
+#: includes/admin/metaboxes.php:475
+msgid "Orders"
+msgstr "Commandes"
+
+#: includes/admin/metaboxes.php:477
+msgid "Orders will display here as they are submitted by your visitors"
+msgstr "Les commandes seront affichées ici, étant envoyées par vos visiteurs"
+
+#: includes/admin/metaboxes.php:498
+msgid "Name: <strong>%s</strong><br />"
+msgstr "Nom : <strong>%s</strong><br>"
+
+#: includes/admin/metaboxes.php:501
+msgid "Email: <strong>%s</strong><br />"
+msgstr "E-mail : <strong>%s</strong><br>"
+
+#: includes/admin/metaboxes.php:504
+msgid "Order Status: <strong>%s</strong><br />"
+msgstr "Statut de la commande : <strong>%s</strong><br>"
+
+#: includes/admin/metaboxes.php:504
+msgid "Submitted"
+msgstr "Envoyé"
+
+#: includes/admin/metaboxes.php:504
+msgid "Not Submitted"
+msgstr "Non envoyé"
+
+#: includes/admin/metaboxes.php:507
+msgid "Order Notes: <strong>%s</strong><br />"
+msgstr "Informations sur la commande : <strong>%s</strong><br>"
+
+#: includes/admin/metaboxes.php:514
+msgid "Unlock"
+msgstr "Déverrouiller"
+
+#: includes/global/common.php:71
+msgid "Please enter your email address to begin the selection process."
+msgstr ""
+"Veuillez saisir votre adresse e-mail pour pouvoir effectuer une  sélection."
+
+#: includes/global/common.php:75 includes/global/shortcode.php:706
+msgid "Add to Order"
+msgstr "Ajouter à la commande"
+
+#: includes/global/common.php:76
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/global/common.php:77
+msgid "Edit Order"
+msgstr "Modifier la commande"
+
+#: includes/global/common.php:78
+msgid "Delete Order"
+msgstr "Supprimer le commande"
+
+#: includes/global/common.php:79
+msgid "Order Notes (Optional)"
+msgstr "Notes de commande (facultatif)"
+
+#: includes/global/common.php:80
+msgid "Save Order Notes"
+msgstr "Sauver les notes de la commande"
+
+#: includes/global/common.php:81
+msgid "Submit"
+msgstr "Envoyer"
+
+#: includes/global/common.php:82
+msgid "Thanks for submitting your order. We will be in touch."
+msgstr ""
+"Merci de votre commande. Nous vous tiendrons informé-e très rapidement."
+
+#: includes/global/common.php:85
+msgid "Envira Proofing: New Order for Gallery: {title}"
+msgstr "Envira Proofing : Nouvelle commande depuis la galerie : {title}"
+
+#: includes/global/common.php:86
+msgid "A new order has been submitted by {email} for Gallery {title}"
+msgstr ""
+"Une nouvelle commande a été envoyée par {email} pour la galerie {title}"
+
+#: includes/global/common.php:86
+msgid "View the order at {url}"
+msgstr "Consulter l'état de la commande à l'adresse {url}"
+
+#: includes/global/common.php:105
+msgid "Above"
+msgstr "Au-dessus et au-dessous des images"
+
+#: includes/global/common.php:109
+msgid "Below"
+msgstr "Au-dessus et au-dessous des images"
+
+#: includes/global/common.php:129
+msgid "Landscape and Portrait"
+msgstr "Paysage et portrait"
+
+#: includes/global/common.php:133
+msgid "Landscape"
+msgstr "Paysage"
+
+#: includes/global/common.php:137
+msgid "Portrait"
+msgstr "Portrait"
+
+#: includes/global/shortcode.php:424 includes/global/shortcode.php:732
+msgid "Quantity"
+msgstr "Quantité"
+
+#: includes/global/shortcode.php:485 includes/global/shortcode.php:587
+msgid "Name"
+msgstr "Nom"
+
+#: includes/global/shortcode.php:488 includes/global/shortcode.php:590
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+#. Plugin Name of the plugin/theme
+msgid "Envira Gallery - Proofing Addon"
+msgstr "Envira Gallery - Proofing Addon (Épreuvage)"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://enviragallery.com"
+msgstr "http://enviragallery.com"
+
+#. Description of the plugin/theme
+msgid "Allows clients to login to Galleries and choose photos for ordering."
+msgstr ""
+"Permet aux clients de se connecter aux galeries pour pouvoir commander des "
+"épreuves de photos."
+
+#. Author of the plugin/theme
+msgid "Envira Gallery Team"
+msgstr "Équipe de Envira Gallery"

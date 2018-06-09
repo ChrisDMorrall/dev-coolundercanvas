@@ -1,0 +1,152 @@
+# Copyright (C) 2015 Envira Gallery - Watermarking Addon
+# This file is distributed under the same license as the Envira Gallery - Watermarking Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Envira Gallery - Watermarking Addon 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/envira-"
+"watermarking\n"
+"POT-Creation-Date: 2016-06-27 09:41+0200\n"
+"PO-Revision-Date: 2016-06-27 09:58+0200\n"
+"Last-Translator: José Luis Pérez-Lozana <jlperez@skynet.be>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/metaboxes.php:86
+msgid "Watermarking"
+msgstr "Marcado de agua"
+
+#: includes/admin/metaboxes.php:107
+msgid "Watermarking Gallery Settings"
+msgstr "Opciones de marcado de agua en la galería"
+
+#: includes/admin/metaboxes.php:109
+msgid ""
+"The settings below adjust the Watermarking options for the Gallery output."
+msgstr ""
+"Los siguientes ajustes configuran las opciones de marcado de agua en la "
+"galería."
+
+#: includes/admin/metaboxes.php:111
+msgid "Need some help?"
+msgstr "¿Necesita ayuda?"
+
+#: includes/admin/metaboxes.php:113
+msgid "Read the Documentation"
+msgstr "Lea la documentación"
+
+#: includes/admin/metaboxes.php:117
+msgid "Watch a Video"
+msgstr "Vea el video"
+
+#: includes/admin/metaboxes.php:125
+msgid "Enabled?"
+msgstr "¿Activar?"
+
+#: includes/admin/metaboxes.php:129
+msgid ""
+"Enables or disables the Watermarking of images uploaded to this Gallery."
+msgstr ""
+"Activa o desactiva el marcado de agua de las imágenes cargadas en esta "
+"galería."
+
+#: includes/admin/metaboxes.php:134
+msgid "Watermark"
+msgstr "Marca de agua"
+
+#: includes/admin/metaboxes.php:162
+msgid "Change Watermark"
+msgstr "Cambiar marca de agua"
+
+#: includes/admin/metaboxes.php:164
+msgid "Choose Watermark"
+msgstr "Elegir marca de agua"
+
+#: includes/admin/metaboxes.php:170
+msgid "The image to use as the watermark."
+msgstr "La imagen a usar como marca de agua."
+
+#: includes/admin/metaboxes.php:175
+msgid "Position"
+msgstr "Posición"
+
+#: includes/admin/metaboxes.php:183
+msgid "Define where to position the watermark over the image."
+msgstr "Define donde poner la marca de agua en la imagen."
+
+#: includes/admin/metaboxes.php:188
+msgid "Margin"
+msgstr "Margen"
+
+#: includes/admin/metaboxes.php:191
+msgid "px"
+msgstr "px"
+
+#: includes/admin/metaboxes.php:192
+msgid "Sets the space between the edge of the image and the watermark."
+msgstr "Establece el espacio entre el borde de la imagen y la marca de agua."
+
+#: includes/admin/metaboxes.php:197
+msgid "Apply to Existing Images?"
+msgstr "¿Aplicar a las imágenes existentes?"
+
+#: includes/admin/metaboxes.php:200
+msgid "Apply"
+msgstr "Aplicar"
+
+#: includes/admin/metaboxes.php:201
+msgid ""
+"Use this option to apply your watermark to any images uploaded to this "
+"Gallery before the Watermark was defined. Any images that already have a "
+"watermark will not be changed."
+msgstr ""
+"Utilice esta opción para aplicar la marca de agua cualquier imagen subida a "
+"esta galería antes de que se definiera la marca de agua. Cualquier imágenes "
+"que ya tenga una marca de agua no cambiará."
+
+#: includes/global/common.php:84
+msgid "Top Left"
+msgstr "Arriba a la izquierda"
+
+#: includes/global/common.php:88
+msgid "Top Right"
+msgstr "Arriba a la derecha"
+
+#: includes/global/common.php:92
+msgid "Center"
+msgstr "Centrado"
+
+#: includes/global/common.php:96
+msgid "Bottom Left"
+msgstr "Abajo a la izquierda"
+
+#: includes/global/common.php:100
+msgid "Bottom Right"
+msgstr "Abajo a la derecha"
+
+#. Plugin Name of the plugin/theme
+msgid "Envira Gallery - Watermarking Addon"
+msgstr "Envira Gallery - Complemento Watermarking"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://enviragallery.com"
+msgstr "http://enviragallery.com"
+
+#. Description of the plugin/theme
+msgid "Add a watermark to your Envira Gallery images"
+msgstr "Añade una marca de agua a sus imágenes de la galería Envira"
+
+#. Author of the plugin/theme
+msgid "Envira Gallery Team"
+msgstr "El equipo de Envira Gallery"
+
+#~ msgid "Thomas Griffin"
+#~ msgstr "Thomas Griffin"
+
+#~ msgid "http://thomasgriffinmedia.com"
+#~ msgstr "http://thomasgriffinmedia.com"

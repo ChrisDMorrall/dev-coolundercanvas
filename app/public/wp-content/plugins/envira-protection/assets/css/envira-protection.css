@@ -1,0 +1,8 @@
+/**
+* Protection
+*/
+.envira-gallery-public a.envira-gallery-link, .envira-gallery-public img.envira-gallery-image {
+  -webkit-touch-callout: none; }
+
+img.envirabox-image, #envirabox-thumbs img {
+  -webkit-touch-callout: none; }

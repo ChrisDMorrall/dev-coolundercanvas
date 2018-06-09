@@ -1,0 +1,109 @@
+# Copyright (C) 2016 Envira Gallery - Breadcrumbs Addon
+# This file is distributed under the same license as the Envira Gallery - Breadcrumbs Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Envira Gallery - Breadcrumbs Addon 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/envira-"
+"breadcrumbs\n"
+"POT-Creation-Date: 2016-11-12 16:54+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-11-25 16:22+0100\n"
+"Language-Team: mm-design.ch <info@mm-design.ch>\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: Rolf Müri - mm-design <rolf.mueri@mm-design.ch>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_CH\n"
+"X-Poedit-Basepath: D:/xampp/apps/wordpress/htdocs/wp-content/plugins/envira-"
+"breadcrumbs\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: envira-breadcrumbs.php:147
+msgid ""
+"The <strong>%s Addon</strong> requires the Envira Albums addon. Please "
+"install and activate the Albums Addon."
+msgstr ""
+"Das <strong>%s Addon</strong> benötigt das Envira Albums Addon. Bitte "
+"installieren und aktivieren Sie das Albums Addon."
+
+#: includes/admin/metaboxes.php:83
+msgid "Breadcrumbs"
+msgstr "Brotkrumen"
+
+#: includes/admin/metaboxes.php:102
+msgid "Gallery Settings"
+msgstr "Galerie-Einstellungen"
+
+#: includes/admin/metaboxes.php:104
+msgid ""
+"The settings below adjust the breadcrumb options on Galleries assigned to "
+"this Album."
+msgstr ""
+"Die untenstehenden Einstellungen passen die Brotkrumen-Optionen von "
+"Galerien an, welche diesem Album zugeordnet sind."
+
+#: includes/admin/metaboxes.php:106
+msgid "Need some help?"
+msgstr "Wird Hilfe benötigt?"
+
+#: includes/admin/metaboxes.php:108
+msgid "Read the Documentation"
+msgstr "Lese bitte die Dokumentation"
+
+#: includes/admin/metaboxes.php:112
+msgid "Watch a Video"
+msgstr "Schaue das Video an"
+
+#: includes/admin/metaboxes.php:120
+msgid "Enable Envira Breadcrumbs?"
+msgstr "Envira Brotkrumen aktivieren?"
+
+#: includes/admin/metaboxes.php:124
+msgid ""
+"If enabled, breadcrumb navigation can be displayed by this Addon above this "
+"Album and its Galleries."
+msgstr ""
+"Wenn aktiviert, kann durch dieses Addon die Brotkrumen-Navigation über "
+"diesem Album und seinen Galerien angezeigt werden."
+
+#: includes/admin/metaboxes.php:129
+msgid "Breadcrumb Separator"
+msgstr "Brotkrumen-Trennzeichen"
+
+#: includes/admin/metaboxes.php:134
+msgid "The separator to use between breadcrumb items. Examples:"
+msgstr "Das Trennzeichen zwischen den einzelnen Brotkrumen, z.B. "
+
+#: includes/admin/metaboxes.php:141
+msgid "Enable Yoast Breadcrumbs?"
+msgstr "Yoast Brotkrumen "
+
+#: includes/admin/metaboxes.php:145
+msgid ""
+"If you're using the Yoast SEO plugin's breadcrumb functionality, enabling "
+"this option injects the Album to the breadcrumb list when a Gallery is "
+"accessed from an Album."
+msgstr ""
+"Wenn du die Brotkrumen-Funktionen des Yoast SEO Plugins verwendest, wird "
+"durch das Einschalten dieser Option auch das Album in die Brotkrumenliste "
+"eingefügt, wenn auf eine Galerie eines Albums zugegriffen wird."
+
+#. Plugin Name of the plugin/theme
+msgid "Envira Gallery - Breadcrumbs Addon"
+msgstr "Envira Gallery - Brotkrumen Erweiterung"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://enviragallery.com"
+msgstr "http://enviragallery.com"
+
+#. Description of the plugin/theme
+msgid "Display Breadcrumb Navigation for Galleries embedded into Albums"
+msgstr ""
+"Zeigt eine Brotkrumen- (Breadcrumbs)-Navigation für Galerien an, welche in "
+"Alben eingebettet sind"
+
+#. Author of the plugin/theme
+msgid "Envira Gallery Team"
+msgstr "Envira Gallery Team"

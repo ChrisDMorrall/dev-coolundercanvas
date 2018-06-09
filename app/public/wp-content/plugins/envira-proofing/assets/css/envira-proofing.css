@@ -1,0 +1,299 @@
+/**
+* Envira Proofing: Messages
+*/
+#envira-proofing-messages {
+  margin-bottom: 20px; }
+
+/**
+* Envira Proofing: Form
+*/
+form.envira-proofing-form {
+  /**
+	* Reinstate appearance on some inputs, which are reset by Envira CSS and Themes
+	*/
+  /**
+	* Upper Left Icons on Galleries
+	* - Move over
+	*/
+  /**
+	* Checkboxes
+	* - Hides Checkbox and displays label, which triggers checkbox
+	*/
+  /**
+	* Submit
+	*/
+  /**
+	* Select Image Checkbox
+	*/
+  /**
+	* Paragraphs
+	*/
+  /**
+	* Selected State
+	*/
+  /**
+	* Textarea
+	*/
+  /**
+	* Proofing Fields Container
+	*/
+  /**
+	* Proofing Field
+	*/ }
+  form.envira-proofing-form input[type=text],
+  form.envira-proofing-form input[type=email] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    border: 1px solid #e7e7e7 !important;
+    margin: 0 0 10px 0;
+    padding: 10px; }
+  form.envira-proofing-form input[type=number] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    border: 1px solid #e7e7e7 !important;
+    margin: 0;
+    padding: 0; }
+    form.envira-proofing-form input[type=number]:focus {
+      background: none; }
+  form.envira-proofing-form .envira-gallery-wrap .envira-gallery-public .envira-gallery-item-inner .envira-gallery-position-overlay.envira-gallery-top-left {
+    margin-left: 30px;
+    padding-top: 0; }
+  form.envira-proofing-form input[type=checkbox] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    display: none; }
+    form.envira-proofing-form input[type=checkbox]:disabled {
+      display: none; }
+  form.envira-proofing-form input[type=checkbox] + label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background: url(../images/tick-grey.png) center no-repeat #f0f0f0;
+    background-size: 20px 20px;
+    z-index: 999; }
+  form.envira-proofing-form input[type=checkbox]:checked + label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background: url(../images/tick.png) center no-repeat #3c9d37;
+    background-size: 20px 20px; }
+  form.envira-proofing-form input[type=checkbox]:not(:checked):disabled + label {
+    display: none; }
+  form.envira-proofing-form input[type=submit] {
+    margin: 0 10px 0 0; }
+  form.envira-proofing-form input.envira-proofing-select-image,
+  form.envira-proofing-form label.envira-proofing-select-image {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0; }
+  form.envira-proofing-form p {
+    line-height: 1;
+    margin: 0 0 10px 0; }
+  form.envira-proofing-form .envira-proofing-selected {
+    border: 3px solid #3c9d37; }
+  form.envira-proofing-form textarea {
+    -webkit-appearance: textarea;
+    -moz-appearance: textarea;
+    appearance: textarea;
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    border: 1px solid #e7e7e7; }
+  form.envira-proofing-form div.envira-proofing-fields {
+    display: none; }
+  form.envira-proofing-form div.envira-proofing-field {
+    clear: both;
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    margin: 10px 0 0 0;
+    position: relative;
+    background-color: #fff;
+    /**
+		* Label
+		*/
+    /**
+		* Numbers (Quantity)
+		*/
+    /**
+		* Checkboxes
+		*/ }
+    form.envira-proofing-form div.envira-proofing-field label {
+      clear: none;
+      float: left;
+      width: auto;
+      line-height: 30px;
+      font-size: 14px;
+      padding-left: 5px;
+      color: #000; }
+    form.envira-proofing-form div.envira-proofing-field input.envira-proofing-number {
+      clear: none;
+      float: right;
+      width: 40px;
+      height: 30px;
+      text-align: center;
+      font-size: 14px; }
+    form.envira-proofing-form div.envira-proofing-field input.envira-proofing-checkbox {
+      float: right;
+      margin-top: 3px; }
+
+/**
+* Envira Proofing: Summary Box
+*/
+div.envira-proofing-summary-box {
+  float: left;
+  width: 100%;
+  height: 60px;
+  color: #fff; }
+  div.envira-proofing-summary-box div.envira-proofing-summary-box-inner {
+    position: fixed;
+    bottom: -80px;
+    /* JS will slide this in when images are added */
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99898;
+    /* used to be 988000 prior to FB3 */
+    /**
+		* Images
+		*/
+    /**
+		* Buttons
+		*/ }
+    div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.images {
+      position: absolute;
+      width: 100%;
+      height: 60px;
+      left: 0;
+      margin: 10px 0;
+      padding: 0 180px 0 40px;
+      /* 120px buttons + 40px right on div.buttons + 20px space = 180px */ }
+      div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.images div.images-inner {
+        float: left;
+        width: 100%;
+        height: 60px;
+        overflow: hidden;
+        white-space: nowrap; }
+        div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.images div.images-inner div.image {
+          display: inline-block;
+          width: 60px;
+          height: 60px;
+          margin: 0 10px 0 0;
+          padding: 0; }
+          div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.images div.images-inner div.image:last-child {
+            margin: 0; }
+          div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.images div.images-inner div.image img {
+            width: 100%;
+            height: auto; }
+    div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.buttons {
+      position: absolute;
+      float: right;
+      width: 120px;
+      height: 80px;
+      padding: 10px 0;
+      right: 40px;
+      line-height: 80px; }
+      div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.buttons button {
+        clear: both;
+        float: right;
+        width: 100%;
+        height: 26px;
+        margin: 0 0 8px 0;
+        padding: 0 7px;
+        font-size: 13px;
+        background: #ececec;
+        color: #000;
+        border-radius: 3px; }
+        div.envira-proofing-summary-box div.envira-proofing-summary-box-inner div.buttons button:last-child {
+          margin: 0; }
+
+/**
+* Envira Proofing: Lightbox
+*/
+.envirabox-proofing .envirabox-outer .envirabox-inner {
+  /**
+			* Proofing Container
+			*/ }
+  .envirabox-proofing .envirabox-outer .envirabox-inner input[type=checkbox] {
+    display: block; }
+  .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing {
+    display: block;
+    position: absolute;
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    padding: 0 10px 10px 10px;
+    background: #000;
+    color: #fff;
+    z-index: 988041; }
+    .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing form.envira-proofing-form input[type=checkbox] {
+      display: block;
+      margin: 7px 7px 0 0; }
+    .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing form.envira-proofing-form div.envira-proofing-fields {
+      display: block; }
+      .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing form.envira-proofing-form div.envira-proofing-fields div.envira-proofing-field label {
+        width: 130px;
+        margin-right: 10px; }
+      .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing form.envira-proofing-form div.envira-proofing-fields div.envira-proofing-field input {
+        color: #fff; }
+      .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing form.envira-proofing-form div.envira-proofing-fields div.envira-proofing-field input[type=number] {
+        background: #000; }
+        .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing form.envira-proofing-form div.envira-proofing-fields div.envira-proofing-field input[type=number]:focus {
+          background: #000; }
+      .envirabox-proofing .envirabox-outer .envirabox-inner .envira-proofing form.envira-proofing-form div.envira-proofing-fields input[type=submit] {
+        float: right;
+        margin: 10px 0 0 0; }
+
+/**
+* Envira Proofing: Justified
+*/
+form.envira-proofing-form div.envira-gallery-public.envira-justified-gallery div.envira-proofing-fields {
+  margin-top: 35px; }
+
+form.envira-proofing-form div.envira-gallery-public.envira-justified-gallery div.envira-proofing-field {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+form.envira-proofing-form div.envira-gallery-public.envira-justified-gallery div.envira-proofing-selected {
+  border: none; }
+
+@media screen and (max-width: 480px) {
+  form.envira-proofing-form {
+    /**
+		* Reinstate appearance on some inputs, which are reset by Envira CSS and Themes
+		*/ }
+    form.envira-proofing-form input[type=text],
+    form.envira-proofing-form input[type=email] {
+      width: 95%; }
+    form.envira-proofing-form input[type=submit] {
+      margin: 20px 0; } }
+
+.envirabox-overlay.envira-proofing-no-order .envirabox-proofing .envirabox-inner .envira-proofing {
+  display: none; }
+
+/* The below media queries are important to help keep the form together on Mobile Safari in certain circumstances */
+/* The key is the font-size being 16px or greater. */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /**
+	* Envira Proofing: Form
+	*/
+  form.envira-proofing-form div.envira-proofing-field select:focus,
+  form.envira-proofing-form div.envira-proofing-field textarea:focus,
+  form.envira-proofing-form div.envira-proofing-field input:focus {
+    font-size: 16px !important; } }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /**
+	* Envira Proofing: Form
+	*/
+  form.envira-proofing-form div.envira-proofing-field select,
+  form.envira-proofing-form div.envira-proofing-field textarea,
+  form.envira-proofing-form div.envira-proofing-field input {
+    font-size: 16px !important; } }

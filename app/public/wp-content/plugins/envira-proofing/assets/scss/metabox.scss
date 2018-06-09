@@ -1,0 +1,41 @@
+/**
+* Sizes
+*/
+table#envira-proofing-sizes {
+	float: left;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 10px;
+
+	thead {
+		float: left;
+		width: 100%;
+
+		tr {
+			th {
+				width: auto;
+				padding: 0;
+			}
+		}
+	}
+	tbody {
+		float: left;
+		width: 100%;
+		padding: 20px 0;
+
+		tr.sortable {
+			td {
+				a.move {
+					float: left;
+					width: 20px;
+					height: 20px;
+					background: url(../images/move.png) center no-repeat;
+				}
+			}
+		}
+	}
+	td {
+		margin: 0;
+		padding: 0;
+	}
+}

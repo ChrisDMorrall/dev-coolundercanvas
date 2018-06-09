@@ -1,0 +1,17 @@
+/**
+* Admin
+*/
+body.envira-no-albums {
+	form#posts-filter {
+		.tablenav.top {
+			display: none;
+		}
+	}
+}
+
+/**
+* RTL
+*/
+body.rtl.post-type-envira_album div.wrap a.page-title-action {
+    left: -185px !important;
+}

@@ -1,0 +1,106 @@
+# Copyright (C) 2017 Envira Gallery - Breadcrumbs Addon
+# This file is distributed under the same license as the Envira Gallery - Breadcrumbs Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Envira Gallery - Breadcrumbs Addon 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/envira-"
+"breadcrumbs\n"
+"POT-Creation-Date: 2017-07-26 22:59+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-07-27 11:02+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: envira-breadcrumbs.php:147
+msgid ""
+"The <strong>%s Addon</strong> requires the Envira Albums addon. Please "
+"install and activate the Albums Addon."
+msgstr ""
+"L' <strong>addon%s</strong> nécessite que Envira - Albums soit installé. "
+"Veuillez installer et activer l'addon Envira - Albums."
+
+#: includes/admin/metaboxes.php:83
+msgid "Breadcrumbs"
+msgstr "Fil d'ariane"
+
+#: includes/admin/metaboxes.php:102
+msgid "Gallery Settings"
+msgstr "Réglages de la galerie"
+
+#: includes/admin/metaboxes.php:104
+msgid ""
+"The settings below adjust the breadcrumb options on Galleries assigned to "
+"this Album."
+msgstr ""
+"Les paramètres ci-dessous permettent le réglage des options du fil d'ariane "
+"dans les galeries associées à cet album."
+
+#: includes/admin/metaboxes.php:106
+msgid "Need some help?"
+msgstr "Besoin d’aide ?"
+
+#: includes/admin/metaboxes.php:108
+msgid "Read the Documentation"
+msgstr "Lire la documentation"
+
+#: includes/admin/metaboxes.php:112
+msgid "Watch a Video"
+msgstr "Regarder une vidéo"
+
+#: includes/admin/metaboxes.php:120
+msgid "Enable Envira Breadcrumbs?"
+msgstr "Activer Envira Breadcrumbs ?"
+
+#: includes/admin/metaboxes.php:124
+msgid ""
+"If enabled, breadcrumb navigation can be displayed by this Addon above this "
+"Album and its Galleries."
+msgstr ""
+"Si activé, le fil d'ariane peut être affiché par cet addon au dessus de cet "
+"album et de ses galeries."
+
+#: includes/admin/metaboxes.php:129
+msgid "Breadcrumb Separator"
+msgstr "Caractère de séparation dans le fil d'ariane"
+
+#: includes/admin/metaboxes.php:134
+msgid "The separator to use between breadcrumb items. Examples:"
+msgstr ""
+"Le caractère de séparation utilisé entre les éléments de menu déroulant. "
+"Exemples :"
+
+#: includes/admin/metaboxes.php:141
+msgid "Enable Yoast Breadcrumbs?"
+msgstr "Activer Yoast Breadcrumbs ?"
+
+#: includes/admin/metaboxes.php:145
+msgid ""
+"If you're using the Yoast SEO plugin's breadcrumb functionality, enabling "
+"this option injects the Album to the breadcrumb list when a Gallery is "
+"accessed from an Album."
+msgstr ""
+"Si vous utilisez la fonctionnalité fil d'ariane du plugin SEO Yoast, "
+"l'activation de cette option injecte le nom de l'album dans le fil d'ariane "
+"lorsqu'une galerie est accessible à partir d'un album."
+
+#. Plugin Name of the plugin/theme
+msgid "Envira Gallery - Breadcrumbs Addon"
+msgstr "Envira Gallery - Breadcrumbs Addon"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://enviragallery.com"
+msgstr "http://enviragallery.com"
+
+#. Description of the plugin/theme
+msgid "Display Breadcrumb Navigation for Galleries embedded into Albums"
+msgstr "Affichage du fil d'ariane pour les galeries intégrées dans les albums"
+
+#. Author of the plugin/theme
+msgid "Envira Gallery Team"
+msgstr "Équipe de Envira Gallery"

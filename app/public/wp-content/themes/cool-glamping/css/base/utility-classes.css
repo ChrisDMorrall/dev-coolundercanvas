@@ -17,11 +17,14 @@
     &--front-page {
       justify-content: space-around;
     }
-
   }
 
   &--flex-last {
     margin-bottom: 30px;
+  }
+
+  &--album {
+    margin-top: 50px;
   }
 }
 

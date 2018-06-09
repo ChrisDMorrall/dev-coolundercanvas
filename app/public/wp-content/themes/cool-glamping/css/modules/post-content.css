@@ -178,3 +178,17 @@ a img.aligncenter {
 	z-index: 100000;
 	/* Above WP toolbar. */
 }
+
+/* Envira Gallery Custom CSS */
+
+#envira-gallery-wrap-54 {
+  margin-bottom: 0;
+  padding-top: 80px;
+}
+
+.envira-gallery-item-inner {
+  border-radius: 8px !important;
+  border: 1px solid $lightGrey !important;
+  box-shadow: 5px 5px 10px grey !important;
+  padding: 10px !important;
+}

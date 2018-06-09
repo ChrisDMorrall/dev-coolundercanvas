@@ -640,7 +640,6 @@ p, li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-
   }
 
 @media (min-width: 960px) {
@@ -650,7 +649,6 @@ p, li {
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row
-
   }
   }
 
@@ -661,6 +659,10 @@ p, li {
 
 .container--flex-last {
     margin-bottom: 30px;
+  }
+
+.container--album {
+    margin-top: 50px;
   }
 
 .container--narrow {
@@ -1401,15 +1403,15 @@ p, li {
 .page-banner__title {
     text-align: center;
     font-weight: 300;
-    font-size: 3.6rem;
+    font-size: 3.0rem;
     margin: 0 0 1rem 0;
     color: #FFF;
   }
 
-@media (min-width: 530px) {
+@media (min-width: 960px) {
 
 .page-banner__title {
-      font-size: 5rem
+      font-size: 4.8rem
   }
   }
 
@@ -1431,7 +1433,7 @@ p, li {
     color: #EDEDED;
   }
 
-@media (min-width: 530px) {
+@media (min-width: 960px) {
 
 .page-banner__intro {
       font-size: 1.65rem
@@ -1631,6 +1633,21 @@ a img.aligncenter {
 	width: auto;
 	z-index: 100000;
 	/* Above WP toolbar. */
+}
+
+/* Envira Gallery Custom CSS */
+
+#envira-gallery-wrap-54 {
+  margin-bottom: 0;
+  padding-top: 80px;
+}
+
+.envira-gallery-item-inner {
+  border-radius: 8px !important;
+  border: 1px solid #b7b7b7 !important;
+  -webkit-box-shadow: 5px 5px 10px grey !important;
+          box-shadow: 5px 5px 10px grey !important;
+  padding: 10px !important;
 }
 
 /* Wordpress Default Classes */
