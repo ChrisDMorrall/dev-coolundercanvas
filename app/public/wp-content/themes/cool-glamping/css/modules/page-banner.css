@@ -23,7 +23,7 @@
   }
 
   &__bg-image {
-    opacity: .33;
+    opacity: .5;
     background-size: cover;
     position: absolute;
     top: 0;
