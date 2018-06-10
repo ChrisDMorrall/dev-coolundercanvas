@@ -6,7 +6,7 @@ pageBanner(array(
 ?>
 
 <section class="blog-section">
-  <div class="container container__flex container--flex-last">
+  <div class="container container__flex container--inset-box-shadow">
     <?php
       while(have_posts()) {
         the_post(); ?>

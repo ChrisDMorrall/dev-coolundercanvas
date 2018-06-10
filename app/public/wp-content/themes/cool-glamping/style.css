@@ -665,6 +665,12 @@ p, li {
     margin-top: 50px;
   }
 
+.container--inset-box-shadow {
+        -webkit-box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.25);
+                box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.25);
+        padding: 50px;
+  }
+
 .container--narrow {
   max-width: 960px;
 }
@@ -1273,7 +1279,7 @@ p, li {
 	-webkit-perspective: 1000px;
 	        perspective: 1000px;
   overflow: hidden;
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 
 .flip-container__inner {
