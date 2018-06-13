@@ -9,7 +9,7 @@ pageBanner(array(
   <div class="container container--inset-box-shadow">
     <div class="hook-strip t-center">
       <h2 class="headline headline--medium">Get In Touch</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora laboriosam harum, dignissimos repudiandae a explicabo quod iure esse non minima.</p>
+      <p>Please send us a message using the the contact form below or call us for enquiries.</p>
       <hr class="headline__hr-center">
     </div>
     <div class="contact">

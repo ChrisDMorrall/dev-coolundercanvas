@@ -1879,7 +1879,7 @@ a img.aligncenter {
         -ms-flex: 0 1 50vw;
             flex: 0 1 50vw;
     height: 30vh;
-    padding-left: 0 20px;
+    padding: 0 40px 0px 40px;
   }
 
 @media (min-width: 960px) {
@@ -1896,6 +1896,8 @@ a img.aligncenter {
       height: 100%;
       width: 100%;
       border: 0;
+      -webkit-box-shadow: 6px 6px 10px -3px #777;
+              box-shadow: 6px 6px 10px -3px #777;
 
   }
 
