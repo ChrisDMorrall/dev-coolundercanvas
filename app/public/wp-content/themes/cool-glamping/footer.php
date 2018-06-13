@@ -11,7 +11,7 @@
         <i class="fab fa-instagram site-footer__icon"></i>
       </a>
     </div>
-    <p class="t-center site-footer__copy">Copyright &copy; 2018 Cool Under Canvas </p>
+    <p class="t-center site-footer__copy">Copyright &copy; <?php echo date("Y"); ?> Cool Under Canvas </p>
   </div>
 </footer>
 

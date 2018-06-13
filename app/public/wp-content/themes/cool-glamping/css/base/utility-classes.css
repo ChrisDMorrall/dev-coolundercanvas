@@ -1,5 +1,5 @@
 .container {
-  max-width: 1300px;
+  /* max-width: 1500px; */
   margin: 0 auto;
   padding: 0 16px;
   position: relative;
@@ -29,7 +29,7 @@
 
   &--inset-box-shadow {
         box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.25);
-        padding: 50px;
+        padding: 0 50px 50px;
   }
 }
 
