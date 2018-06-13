@@ -50,6 +50,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 
     @mixin atMedium {
       height: 60vh;
@@ -61,11 +62,12 @@
     display: flex;
     flex: 0 1 50vw;
     height: 30vh;
-    padding: 0 40px 0px 40px;
+
 
     @mixin atMedium {
       height: 60vh;
       margin-bottom: 30px;
+      padding: 0 40px 0px 40px;
     }
   }
 

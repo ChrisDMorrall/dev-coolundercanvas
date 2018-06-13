@@ -1862,6 +1862,7 @@ a img.aligncenter {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+    margin-bottom: 20px;
   }
 
 @media (min-width: 960px) {
@@ -1879,14 +1880,14 @@ a img.aligncenter {
         -ms-flex: 0 1 50vw;
             flex: 0 1 50vw;
     height: 30vh;
-    padding: 0 40px 0px 40px;
   }
 
 @media (min-width: 960px) {
 
 .contact__map-wrap {
       height: 60vh;
-      margin-bottom: 30px
+      margin-bottom: 30px;
+      padding: 0 40px 0px 40px
   }
   }
 
