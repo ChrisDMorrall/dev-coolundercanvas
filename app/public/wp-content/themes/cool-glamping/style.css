@@ -1868,7 +1868,8 @@ a img.aligncenter {
 @media (min-width: 960px) {
 
 .contact__form-wrap {
-      height: 60vh
+      height: 60vh;
+      text-align: left
   }
   }
 

@@ -54,6 +54,7 @@
 
     @mixin atMedium {
       height: 60vh;
+      text-align: left;
 
     }
   }
