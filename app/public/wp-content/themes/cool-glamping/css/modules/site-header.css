@@ -25,7 +25,7 @@
   &__menu {
     visibility: hidden;
     position: absolute;
-    background-color: color($mainGreen a(89%) b(+3%));
+    background-color: color($mainGreen a(95%) b(+3%));
     left: 0;
     right: 0;
     top: 110px;

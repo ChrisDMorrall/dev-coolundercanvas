@@ -774,7 +774,7 @@ p, li {
 .site-header__menu {
     visibility: hidden;
     position: absolute;
-    background-color: rgba(56, 145, 132, 0.89);
+    background-color: rgba(56, 145, 132, 0.95);
     left: 0;
     right: 0;
     top: 110px;
